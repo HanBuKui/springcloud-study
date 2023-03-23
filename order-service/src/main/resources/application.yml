@@ -8,6 +8,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: orderservice
+  cloud:
+    nacos:
+      server-addr: localhost:8848  #nacos服务地址
+      discovery:
+        cluster-name: HZ
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -18,7 +23,11 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 
-eureka:
-  client:
-    service-url:  # eureka的地址信息
-      defaultZone: http://localhost:10086/eureka
+userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule  # 负载均衡规则，这个规则优先会寻找与自己同集群的服务
+
+#eureka:
+#  client:
+#    service-url:  # eureka的地址信息
+#      defaultZone: http://localhost:10086/eureka

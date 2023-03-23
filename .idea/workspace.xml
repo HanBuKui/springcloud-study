@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15a383a-d6b7-43b5-a3f6-a32c9fdf35a5" name="Default Changelist" comment="" />
+    <list default="true" id="f15a383a-d6b7-43b5-a3f6-a32c9fdf35a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +62,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,17 +75,20 @@
     </option>
   </component>
   <component name="ProjectId" id="2NN4BSoH8axreIK6eMWzDNDRfIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,6 +99,17 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="UserApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaApplication">
@@ -71,6 +136,34 @@
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8084 -Dspring.cloud.nacos.discovery.cluster-name=SH" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,46 +184,103 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679491069800</updated>
-      <workItem from="1679491075286" duration="4877000" />
+      <workItem from="1679491075286" duration="5394000" />
+      <workItem from="1679576487380" duration="5399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1293" height="387" key="GridCell.Tab.0.bottom" timestamp="1679494611210">
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication" timestamp="1679580342152">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611210" />
-    <state width="1293" height="387" key="GridCell.Tab.0.center" timestamp="1679494611207">
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580342152" />
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication2" timestamp="1679580329221">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611207" />
-    <state width="1293" height="387" key="GridCell.Tab.0.left" timestamp="1679494611206">
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication2/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580329221" />
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication2_(1)" timestamp="1679580318053">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611206" />
-    <state width="1293" height="387" key="GridCell.Tab.0.right" timestamp="1679494611208">
+    <state x="2403" y="0" width="967" height="1080" key="#UserApplication2_(1)/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580318053" />
+    <state x="2363" y="0" width="967" height="1080" key="#UserApplication3" timestamp="1679580578226">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611208" />
-    <state width="1293" height="387" key="GridCell.Tab.1.bottom" timestamp="1679494611217">
+    <state x="2363" y="0" width="967" height="1080" key="#UserApplication3/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580578226" />
+    <state x="2537" y="299" width="967" height="781" key="#UserApplication_(1)" timestamp="1679580382299">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611217" />
-    <state width="1293" height="387" key="GridCell.Tab.1.center" timestamp="1679494611213">
+    <state x="2537" y="299" width="967" height="781" key="#UserApplication_(1)/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580382299" />
+    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1679496440948">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611213" />
-    <state width="1293" height="387" key="GridCell.Tab.1.left" timestamp="1679494611212">
+    <state x="2660" y="281" key="FileChooserDialogImpl/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679496440948" />
+    <state x="2220" y="221" width="796" height="421" key="Github.ShareDialog" timestamp="1679496485663">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611212" />
-    <state width="1293" height="387" key="GridCell.Tab.1.right" timestamp="1679494611215">
+    <state x="2220" y="221" width="796" height="421" key="Github.ShareDialog/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679496485663" />
+    <state x="2508" y="237" key="Github.UntrackedFilesDialog" timestamp="1679496567616">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="387" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679494611215" />
+    <state x="2508" y="237" key="Github.UntrackedFilesDialog/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679496567616" />
+    <state width="1368" height="387" key="GridCell.Tab.0.bottom" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.0.center" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.0.left" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.0.right" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.1.bottom" timestamp="1679580970104">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970104" />
+    <state width="1368" height="387" key="GridCell.Tab.1.center" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.1.left" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
+    <state width="1368" height="387" key="GridCell.Tab.1.right" timestamp="1679580970103">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1368" height="387" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679580970103" />
     <state x="2254" y="200" key="new project wizard" timestamp="1679491332313">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
