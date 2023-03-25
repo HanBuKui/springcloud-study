@@ -26,22 +26,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15a383a-d6b7-43b5-a3f6-a32c9fdf35a5" name="Default Changelist" comment="【Nacos配置中心】">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/clients/UserClient.java" afterDir="false" />
+    <list default="true" id="f15a383a-d6b7-43b5-a3f6-a32c9fdf35a5" name="Default Changelist" comment="【Feign-最佳实践-抽取feign模块,作为一个独立的module】">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-api/feign-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/hanser/feign/config/DefaultFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/clients/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/hanser/feign/clients/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-api/src/main/java/com/hanser/feign/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,6 +93,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hanser.feign.pojo" />
+      <recent name="com.hanser.feign.clients" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -191,7 +200,8 @@
       <workItem from="1679491075286" duration="5394000" />
       <workItem from="1679576487380" duration="5570000" />
       <workItem from="1679658279638" duration="3532000" />
-      <workItem from="1679666713978" duration="3152000" />
+      <workItem from="1679666713978" duration="3401000" />
+      <workItem from="1679752344424" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="【Nacos注册中心】">
       <created>1679582305375</created>
@@ -207,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679669123871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="【Feign-基于Feign的远程调用】">
+      <created>1679670555798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679670555798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +257,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="【Nacos注册中心】" />
     <MESSAGE value="【Nacos配置中心】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Nacos配置中心】" />
+    <MESSAGE value="【Feign-基于Feign的远程调用】" />
+    <MESSAGE value="【Feign-最佳实践-抽取feign模块,作为一个独立的module】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Feign-最佳实践-抽取feign模块,作为一个独立的module】" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2360" y="114" key="#Project_Structure" timestamp="1679666187273">
@@ -283,49 +302,53 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2508" y="237" key="Github.UntrackedFilesDialog/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679496567616" />
-    <state width="1418" height="325" key="GridCell.Tab.0.bottom" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.0.bottom" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state width="1418" height="325" key="GridCell.Tab.0.center" timestamp="1679669593327">
+    <state width="1418" height="305" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.0.center" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593327" />
-    <state width="1418" height="325" key="GridCell.Tab.0.left" timestamp="1679669593327">
+    <state width="1418" height="305" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.0.left" timestamp="1679755960223">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593327" />
-    <state width="1418" height="325" key="GridCell.Tab.0.right" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960223" />
+    <state width="1418" height="305" key="GridCell.Tab.0.right" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state width="1418" height="325" key="GridCell.Tab.1.bottom" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.1.bottom" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state width="1418" height="325" key="GridCell.Tab.1.center" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.1.center" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state width="1418" height="325" key="GridCell.Tab.1.left" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.1.left" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state width="1418" height="325" key="GridCell.Tab.1.right" timestamp="1679669593328">
+    <state width="1418" height="305" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state width="1418" height="305" key="GridCell.Tab.1.right" timestamp="1679755960224">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1418" height="325" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669593328" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1679669176607">
+    <state width="1418" height="305" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679755960224" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1679670562136">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669176607" />
-    <state x="2582" y="272" width="596" height="536" key="find.popup" timestamp="1679669592325">
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679670562136" />
+    <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1679756096260">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2582" y="272" width="596" height="536" key="find.popup/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679669592325" />
-    <state x="2254" y="200" key="new project wizard" timestamp="1679491332313">
+    <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679756096260" />
+    <state x="2582" y="272" width="596" height="536" key="find.popup" timestamp="1679753257860">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2254" y="200" key="new project wizard/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679491332313" />
+    <state x="2582" y="272" width="596" height="536" key="find.popup/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679753257860" />
+    <state x="2254" y="200" key="new project wizard" timestamp="1679754324106">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2254" y="200" key="new project wizard/0.0.1280.720/1920.0.1920.1080@1920.0.1920.1080" timestamp="1679754324106" />
   </component>
 </project>

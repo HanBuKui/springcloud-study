@@ -1,6 +1,7 @@
-package cn.itcast.order.clients;
+package com.hanser.feign.clients;
 
-import cn.itcast.order.pojo.User;
+import com.hanser.feign.config.DefaultFeignConfiguration;
+import com.hanser.feign.pojo.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @Version: 1.0
  */
 
-@FeignClient("userservice")
+@FeignClient(value = "userservice",configuration = DefaultFeignConfiguration.class)
 public interface UserClient {
 
     @GetMapping("/user/{id}")
