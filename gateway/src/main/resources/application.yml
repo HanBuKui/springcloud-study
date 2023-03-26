@@ -1,0 +1,38 @@
+server:
+  port: 10010
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    gateway:
+      routes:  #网关路由配置
+        - id: user-service  #路由id，自定义，必须唯一
+          uri: lb://userservice  #路由的目标地址
+          predicates:          #路由断言(断言：就是一种布尔表达式，是一个判断规则)，判断请求是否符合规则
+            - Path=/user/**    #路径断言，判断路径是否是以/user开头,如果是则符合，就会代理到上面的uri中
+        - id: order-service
+          uri: lb://orderservice
+          predicates:
+            - Path=/order/**
+      default-filters:   #配置全局过滤器
+        - AddRequestHeader=Truth, WuLa!
+
+      globalcors:  #全局的跨域处理
+          add-to-simple-url-handler-mapping: true  #解决options请求被拦截问题
+          cors-configurations:
+            '[/**]':
+              allowedOrigins: #允许哪些网站的跨域请求
+                - "http://localhost:8090"
+                - "http://localhost"   #nginx的端口是80的话不能写"localhost:80"
+              allowedMethods:  #允许的跨域ajax的请求方式
+                - "GET"
+                - "POST"
+                - "DELETE"
+                - "PUT"
+                - "OPTIONS"
+              allowedHeaders: "*" #允许在请求中携带的头信息
+              allowCredentials: true #是否允许携带cookie
+              maxAge: 360000   #这次跨域检测的有效期
